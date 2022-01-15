@@ -1,0 +1,97 @@
+html{
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-image: url(/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carta{
+    background-color: white;
+    max-width: 350px;
+    margin: 80px auto;
+    border-radius: 15px;
+}
+#header{
+    text-align: center;
+}
+#header img{
+    max-width: 350px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+#header p{
+    margin: 50px;
+}
+
+#piano-annuale-costo{
+    
+    
+    display: flex;
+    max-height: 50px;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 15px;
+}
+#piano-annuale-costo a{
+    color: grey;
+}
+#annual-plan{
+    
+    height: 50px;
+    
+}
+#annual-plan h4{
+    margin: 0;
+}
+#annual-plan p{
+    margin: 0;
+}
+#descrizione{
+    display: flex;
+    align-items: center;  
+    margin-left: 10px;
+}
+#descrizione a{
+    margin-left: 80px;
+}
+
+#buttons{
+    text-align: center;
+    
+    
+}
+
+#bottone1 button{
+    padding: 15px 75px;
+    background-color:   hsl(245, 75%, 52%);
+    border-radius: 15px;
+    border: none;
+}
+#bottone1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#bottone2 button{
+    padding: 15px 75px;
+    border:none
+}
+#bottone2 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+@media (max-width:1440px) {
+    body{
+        background-image: url("/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
